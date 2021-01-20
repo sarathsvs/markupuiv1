@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:alpha="1"
+                    android:rotation="180"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                     />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:elevation="5dp"
+                    android:padding="10dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/account_image"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/user_02"
+                        android:tint="@color/white"
+                        app:civ_border_overlay="false" />
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/account_image"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:singleLine="false"
+                        android:text="Settings"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/tvEMail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvUserName"
+                        android:layout_marginTop="-5dp"
+                        android:text="Chnage Your Settings"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffffff">
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginBottom="50dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0.3dp"
+
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/font_grey_black"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                        android:visibility="visible"
+                        tools:ignore="Suspicious0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="General Setting"
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:id="@+id/clickMyCart"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageVie4w142434222"
+                                android:layout_width="20sp"
+                                android:layout_height="20sp"
+                                app:srcCompat="@drawable/user_icon_01"
+                                app:tint="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_toRightOf="@id/imageVie4w142434222"
+                                android:text="My Profile"
+                                android:textColor="@color/font_grey_black"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/next_01" />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/clickCustomerSupoort"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/img345"
+                                android:layout_width="20sp"
+                                android:layout_height="20sp"
+                                app:srcCompat="@drawable/customer_service"
+                                app:tint="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_toRightOf="@id/img345"
+                                android:text="Customer Support"
+                                android:textColor="@color/font_grey_black"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/next_01" />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/clickateOnPlaystore"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageVie4w142422"
+                                android:layout_width="20sp"
+                                android:layout_height="20sp"
+                                app:srcCompat="@drawable/star"
+                                app:tint="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_toRightOf="@id/imageVie4w142422"
+                                android:text="Rate the app"
+                                android:textColor="@color/font_grey_black"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/next_01" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/clickPrivacyTermLink"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageVie4w1424226"
+                                android:layout_width="20sp"
+                                android:layout_height="20sp"
+                                app:srcCompat="@drawable/pricavy_pol_02"
+                                app:tint="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_toRightOf="@id/imageVie4w1424226"
+                                android:text="Privacy and Terms"
+                                android:textColor="@color/font_grey_black"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/next_01" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/clickAboutAs"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageVie4w14242254"
+                                android:layout_width="20sp"
+                                android:layout_height="20sp"
+                                app:srcCompat="@drawable/about"
+                                app:tint="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_toRightOf="@id/imageVie4w14242254"
+                                android:text="About Us"
+                                android:textColor="@color/font_grey_black"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/next_01" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/clickLogout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="15dp">
+
+                            <ImageView
+                                android:id="@+id/imageVie4w14242we254"
+                                android:layout_width="20sp"
+                                android:layout_height="20sp"
+                                app:srcCompat="@drawable/exit"
+                                app:tint="@color/colorAccent" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                android:layout_toRightOf="@id/imageVie4w14242we254"
+                                android:text="Logout"
+                                android:textColor="@color/font_grey_black"
+                                android:textSize="18sp" />
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                app:srcCompat="@drawable/next_01" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical"
+                            android:padding="10dp"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

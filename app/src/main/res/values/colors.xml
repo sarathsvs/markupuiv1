@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="fontWhiteEnable">#FAF8F8</color>
+    <color name="color_app_background">#FFFFFF</color>
+    <color name="color_app_background_old">#EFF2FA</color>
+
+    <color name="status_bar_color_white">#FFFFFF</color>
+    <color name="status_bar_color_accent">#FFFFFF</color>
+    <color name="status_bar_color">#FFFFFF</color>
+
+    <!--- fonts-->
+    <color name="font_grey_black">#3F4040</color>
+    <color name="font_color_white">#FFFFFF</color>
+
+    <color name="active_green">#046C04</color>
+    <color name="disable_red">#780505</color>
+
+    <color name="font_dark_grey_01">#333437</color>
+    <color name="font_dim_grey_01">#535457</color>
+    <color name="greyline">#EC949494</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+</resources>
